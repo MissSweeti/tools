@@ -21,7 +21,7 @@ function b(u,h,a,d,g,e,s,b,o,i){
 	});
 	
 	var b = 0;
-	var s = (u ? "C" : "NOT c" ) + "ounting " + d + " completed sets, you have:\n";
+	var s = (u ? "C" : "NOT c" ) + "ounting " + d + " already-crafted badges, you have:\n";
 	a.forEach(function(v,k){
 		if( k < 5 ) return;
 		s+="..." + a[k] + " badge(s) with " + k + " cards in set\n";
